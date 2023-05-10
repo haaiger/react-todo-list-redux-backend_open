@@ -1,0 +1,89 @@
+.wrapperTask {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+label {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+}
+
+h3,
+input[type="text"] {
+    font-size: 18px;
+    margin: 0;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.inputTaskButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 8px;
+}
+
+.editButton {
+    background-color: #edd44d;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.removeButton {
+    background-color: #f56565;
+    color: #fff;
+}
+
+.saveButton {
+    background-color: #48bb78;
+    color: #fff;
+}
+
+.cancelButton {
+    background-color: #f56565;
+    color: #fff;
+}
+
+.inputTaskButtonContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.saveButton:hover {
+    background-color: #38a169;
+}
+
+.cancelButton:hover {
+    background-color: #e53e3e;
+}
+
+.editButton:hover {
+    background-color: #d6bc30;
+}
+
+.removeButton:hover {
+    background-color: #e53e3e;
+}

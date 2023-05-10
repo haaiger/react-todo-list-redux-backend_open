@@ -1,0 +1,32 @@
+.inputPlusContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.inputPlusField {
+    flex-grow: 1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+.inputPlusButton {
+    padding: 5px 15px;
+    background-color: #4481eb;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.inputPlusButton:hover {
+    background-color: #3468c7;
+}

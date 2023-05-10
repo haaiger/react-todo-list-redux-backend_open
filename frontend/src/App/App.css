@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.taskList {
+    height: 310px;
+    overflow-y: auto;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.buttonsContainer button {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonsContainer button.active {
+    background-color: #333;
+    color: #fff;
+}
